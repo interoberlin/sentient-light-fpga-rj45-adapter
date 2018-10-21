@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -14,4 +14,61 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Connector:RJ45 Jx
+U 1 1 5BCCA258
+P 6050 4100
+F 0 "Jx" H 5720 4196 50  0000 R CNN
+F 1 "RJ45" H 5720 4105 50  0000 R CNN
+F 2 "" V 6050 4125 50  0001 C CNN
+F 3 "~" V 6050 4125 50  0001 C CNN
+	1    6050 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5BCCA2D6
+P 5450 4600
+F 0 "#PWR?" H 5450 4350 50  0001 C CNN
+F 1 "GNDREF" H 5455 4427 50  0000 C CNN
+F 2 "" H 5450 4600 50  0001 C CNN
+F 3 "" H 5450 4600 50  0001 C CNN
+	1    5450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4600 5450 4400
+Wire Wire Line
+	5450 3800 5650 3800
+Wire Wire Line
+	5650 4000 5450 4000
+Connection ~ 5450 4000
+Wire Wire Line
+	5450 4000 5450 3800
+Wire Wire Line
+	5650 4200 5450 4200
+Connection ~ 5450 4200
+Wire Wire Line
+	5450 4200 5450 4000
+Wire Wire Line
+	5650 4400 5450 4400
+Connection ~ 5450 4400
+Wire Wire Line
+	5450 4400 5450 4200
+Text HLabel 5200 3700 0    50   Input ~ 0
+OUT1
+Text HLabel 5200 3900 0    50   Input ~ 0
+OUT2
+Text HLabel 5200 4100 0    50   Input ~ 0
+OUT3
+Text HLabel 5200 4300 0    50   Input ~ 0
+OUT4
+Wire Wire Line
+	5200 4300 5650 4300
+Wire Wire Line
+	5200 4100 5650 4100
+Wire Wire Line
+	5200 3900 5650 3900
+Wire Wire Line
+	5200 3700 5650 3700
 $EndSCHEMATC

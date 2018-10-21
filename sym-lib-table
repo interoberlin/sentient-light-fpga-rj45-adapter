@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name Project)(type Legacy)(uri ${KIPRJMOD}/icestick-rj45-shield.lib)(options "")(descr "Project specific symbols"))
 )
