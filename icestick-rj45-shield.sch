@@ -95,7 +95,7 @@ $EndSheet
 $Sheet
 S 5800 4650 750  500 
 U 5BCC8BB7
-F0 "sheet5BCC8BAD" 50
+F0 "Isolator 4" 50
 F1 "isolator.sch" 50
 F2 "IN1" I L 5800 4750 50 
 F3 "IN2" I L 5800 4850 50 
