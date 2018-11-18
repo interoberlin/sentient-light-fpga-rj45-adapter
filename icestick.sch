@@ -104,50 +104,6 @@ F 3 "" H 6050 3900 50  0001 C CNN
 	1    6050 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Matthias:iCEstick U8
-U 1 1 5BE7665D
-P 3450 5300
-F 0 "U8" H 3200 6400 50  0000 C CNN
-F 1 "iCEstick" H 3306 6424 50  0001 C CNN
-F 2 "Matthias:iCEstick" H 2750 5650 50  0001 C CNN
-F 3 "" H 2750 5650 50  0001 C CNN
-	1    3450 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Matthias:iCEstick U8
-U 2 1 5BE76717
-P 7700 5300
-F 0 "U8" H 7450 6400 50  0000 C CNN
-F 1 "iCEstick" H 7556 6424 50  0001 C CNN
-F 2 "Matthias:iCEstick" H 7000 5650 50  0001 C CNN
-F 3 "" H 7000 5650 50  0001 C CNN
-	2    7700 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Matthias:iCEstick U8
-U 3 1 5BE7678E
-P 6000 5300
-F 0 "U8" H 5750 6150 50  0000 C CNN
-F 1 "iCEstick" H 5750 6174 50  0001 C CNN
-F 2 "Matthias:iCEstick" H 5300 5650 50  0001 C CNN
-F 3 "" H 5300 5650 50  0001 C CNN
-	3    6000 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Matthias:iCEstick U8
-U 4 1 5BE76801
-P 5700 4250
-F 0 "U8" H 5681 4925 50  0000 C CNN
-F 1 "iCEstick" H 5681 4834 50  0000 C CNN
-F 2 "Matthias:iCEstick" H 5000 4600 50  0001 C CNN
-F 3 "" H 5000 4600 50  0001 C CNN
-	4    5700 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6350 4600 6550 4600
 Wire Wire Line
@@ -180,4 +136,48 @@ Text HLabel 6550 4800 2    50   Output ~ 0
 FPGA_90
 Text HLabel 6550 4900 2    50   Output ~ 0
 FPGA_91
+$Comp
+L Matthias:iCEstick U8
+U 1 1 5BF1DEB4
+P 3450 5300
+F 0 "U8" H 3306 6423 50  0000 C CNN
+F 1 "iCEstick" H 3250 5150 50  0001 C CNN
+F 2 "Matthias:iCEstick" H 2750 5650 50  0001 C CNN
+F 3 "" H 2750 5650 50  0001 C CNN
+	1    3450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matthias:iCEstick U8
+U 2 1 5BF1DF2E
+P 7700 5300
+F 0 "U8" H 7556 6423 50  0000 C CNN
+F 1 "iCEstick" H 7500 5150 50  0001 C CNN
+F 2 "Matthias:iCEstick" H 7000 5650 50  0001 C CNN
+F 3 "" H 7000 5650 50  0001 C CNN
+	2    7700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matthias:iCEstick U8
+U 3 1 5BF1E00D
+P 6000 5300
+F 0 "U8" H 5750 6173 50  0000 C CNN
+F 1 "iCEstick" H 5800 5150 50  0001 C CNN
+F 2 "Matthias:iCEstick" H 5300 5650 50  0001 C CNN
+F 3 "" H 5300 5650 50  0001 C CNN
+	3    6000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matthias:iCEstick U8
+U 4 1 5BF1E0A3
+P 5700 4250
+F 0 "U8" H 5681 4833 50  0000 C CNN
+F 1 "iCEstick" H 5500 4100 50  0001 C CNN
+F 2 "Matthias:iCEstick" H 5000 4600 50  0001 C CNN
+F 3 "" H 5000 4600 50  0001 C CNN
+	4    5700 4250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

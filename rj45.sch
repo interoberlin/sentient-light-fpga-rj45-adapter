@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 5 11
 Title ""
 Date ""
 Rev ""
@@ -159,4 +159,6 @@ Wire Wire Line
 Connection ~ 7100 4300
 Wire Wire Line
 	7100 4300 7100 4750
+Text Notes 7900 4300 0    50   ~ 0
+D signal pairs are realized as twisted pair in RJ45 cables.\nThose pairs are used also here, In order to minimize\ncapacitive coupling between the signals on the way to the receiver.\nThe respective + signals are connected to ground,\nrather than the - signals, because this simplifies routing.
 $EndSCHEMATC

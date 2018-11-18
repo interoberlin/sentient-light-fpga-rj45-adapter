@@ -4,3 +4,6 @@
 *.bck
 *.kicad_pcb-bak
 
+# KiCad crash save files
+_saved_*.sch
+*-rescue.lib
