@@ -9,16 +9,16 @@ Eight additional inputs can switch the RJ-45 sockets' LEDs on and off.
 
 ### Top layer
 
-<img src="https://raw.githubusercontent.com/interoberlin/sentient-light-fpga-rj45-adapter/master/doc/v1.0/top-layer.jpg"/>
+<img width="250px" src="https://raw.githubusercontent.com/interoberlin/sentient-light-fpga-rj45-adapter/master/build/v1.0/top-layer.jpg"/>
 
 ### Bottom layer
 
-<img src="https://raw.githubusercontent.com/interoberlin/sentient-light-fpga-rj45-adapter/master/doc/v1.0/bottom-layer.jpg"/>
+<img width="250px" src="https://raw.githubusercontent.com/interoberlin/sentient-light-fpga-rj45-adapter/master/build/v1.0/bottom-layer.jpg"/>
 
 ### With components
 
-<img src="https://raw.githubusercontent.com/interoberlin/sentient-light-fpga-rj45-adapter/master/doc/v1.0/with-components.jpg"/>
+<img width="250px" src="https://raw.githubusercontent.com/interoberlin/sentient-light-fpga-rj45-adapter/master/build/v1.0/with-components.jpg"/>
 
 ### With iCEstick
 
-<img src="https://raw.githubusercontent.com/interoberlin/sentient-light-fpga-rj45-adapter/master/doc/v1.0/with-icestick.jpg"/>
+<img width="250px" src="https://raw.githubusercontent.com/interoberlin/sentient-light-fpga-rj45-adapter/master/build/v1.0/with-icestick.jpg"/>
